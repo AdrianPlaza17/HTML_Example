@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cine</title>
+	<link rel="stylesheet" type="text/css" href="css/adrian.css">
+	<meta charset="utf-8">
+		<script type="text/javascript" src="js/adrian.js"></script>
+		<title> mensaje de aceptar cookies para tu web</title>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ 
+</head>
+<body>
+<header>
+<div class="container">
+
+  <p id="cabecera"><a>
+    PELIS
+  </a></p>
+
+
+</div>
+
+</header>
+
+<section>
+	<table id="tabla">
+		<tr>
+			<td id="principal">
+				<img src="imagenes/fnf8.jpg">
+				<p>Fast and furious 8</p>
+			</td>
+			<td id="principal">
+				<img src="imagenes/godzillavskong.jpg">
+				<p>Godzilla vs Kong</p>
+			</td id="principal">
+		</tr>
+
+	<tr>
+			<td id="principal">
+			<img src="imagenes/hobbit.jpg">
+			<p>El hobbit</p>
+			</td>
+			<td id="principal">
+				<img src="imagenes/mortalkombat.jpg">
+				<p>Mortal kombat</p>
+			</td>
+		</tr>
+
+
+	<tr>
+			<td id="principal">
+				<img src="imagenes/tomyjerry.jpg">
+				<p>Tom y Jerry</p>
+			</td>
+			<td id="principal">
+				<img src="imagenes/wonder.jpg">
+				<p>Wonder woman</p>
+			</td>
+		</tr>
+
+
+
+
+	</table>
+	<a href="adrian.xml"><button id="boton">HORARIOS Y PRECIOS</button></a>
+
+	<button id="boton" onclick="loadDatos();">INFORMACION ADICIONAL</button>
+	
+	
+	
+	
+	
+	<table id="salida"></table>
+
+
+<div id="div-cookies" style="display: none;">
+Necesitamos usar cookies para que funcione todo, si permanece aquí acepta su uso, más información en
+<a hreflang="es" href="/info/aviso-legal">Aviso Legal</a>
+y la
+<a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>.
+<button type="button" class="btn btn-sm btn-primary" onclick="acceptCookies()">
+Acepto el uso de cookies
+</button>
+</div>
+<style>
+#div-cookies {
+   position: fixed;
+   bottom: 0px;
+   left: 0px;
+   width: 100%;
+   background-color: white;
+   box-shadow: 0px -5px 15px gray;
+   padding: 7px;
+   text-align: center;
+   z-index: 99;
+}
+</style>
+<script>
+function checkAcceptCookies() {
+   if (localStorage.acceptCookies == 'true') {} else {
+       $('#div-cookies').show();
+   }
+}
+
+function acceptCookies() {
+   localStorage.acceptCookies = 'true';
+   $('#div-cookies').hide();
+}
+$(document).ready(function() {
+   checkAcceptCookies();
+});
+</script>
+
+
+
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script>
+<script type="text/javascript" async="" src="https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf62f1b62fee002a811e91.js?platform=onboarding_modular"></script>
+<script type="text/javascript" async="" src="https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf6214b62fee002a811e3a.js?platform=registration"></script>
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script async="" src="//www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf62f1b62fee002a811e91.js?platform=onboarding_modular"></script>
+<script type="text/javascript" async="" src="https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf6214b62fee002a811e3a.js?platform=registration"></script>
+<script type="text/javascript">(function () { var ldk = document.createElement('script'); ldk.type = 'text/javascript'; ldk.async = true; ldk.src = 'https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf6214b62fee002a811e3a.js?platform=registration'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ldk, s); })();</script>
+      <script type="text/javascript">(function () {
+        var ldk = document.createElement('script');
+        ldk.type = 'text/javascript';
+        ldk.async = true;
+        ldk.src = 'https://s.cliengo.com/weboptimizer/60bf6213b62fee002a811e37/60bf62f1b62fee002a811e91.js?platform=onboarding_modular';
+        var s = document.getElementsByTagName('script')[0];
+    </script>
+
+	<footer>
+	<div class="container">
+	<p id="cabecera"><a>El cine, pasión</a></p>
+	</div>
+	</footer>
+</section>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
